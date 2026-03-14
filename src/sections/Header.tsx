@@ -191,9 +191,9 @@ export default function Header() {
                                 </div>
                                 {/* Business modal */}
                                 {activeBusiness && (
-                                    <div className={`absolute top-full right-0 mt-2 h-[85vh] w-xl bg-white rounded-tl-lg rounded-br-lg rounded-bl-lg overflow-y-auto shadow-lg p-8 z-100 duration-200 ${visibleBusiness ? 'translate-y-0' : '-translate-y-4'}`}>
-                                        <div className="flex h-full">
-                                            <div className="flex-1 flex flex-col gap-10">
+                                    <div className={`absolute top-full right-0 mt-2 h-[85vh] w-sm md:w-xl bg-white rounded-tl-lg rounded-br-lg rounded-bl-lg overflow-y-auto shadow-lg p-8 z-100 duration-200 ${visibleBusiness ? 'translate-y-0' : '-translate-y-4'}`}>
+                                        <div className="flex h-full md:flex-row flex-col">
+                                            <div className="flex-1 flex flex-col gap-8 md:gap-10">
                                                 <ul className="flex flex-col gap-3">
                                                     <h3 className="text-xl font-semibold text-black">My Apps</h3>
                                                     <li className="text-md font-semibold text-black">
@@ -231,8 +231,8 @@ export default function Header() {
                                                     </li>
                                                 </ul>                                                
                                             </div>
-                                            <div className="h-full w-px bg-black/20 mx-8"></div>
-                                            <div className="flex-1">
+                                            <div className="h-full w-px bg-black/20 mx-8 mt-14 md:mt-0"></div>
+                                            <div className="flex-1 pb-6">
                                                 <ul className="flex-1 flex flex-col gap-6">
                                                     <h3 className="text-lg font-semibold">Explore more for business</h3>
                                                     <li>
