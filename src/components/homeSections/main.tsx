@@ -17,7 +17,7 @@ const posts = [
     title: "Principal Solutions Architect | Head of Distributed Squanching Systems",
     time: "1w",
     desc: `It’s rare to find a leader who doesn’t just disrupt the market, but essentially creates new ones from nothing. Working alongside Rick has been a masterclass in high-stakes strategy and aggressive expansion. He’s not here to build a company; he’s here to build a legacy—regardless of who gets in the way.`,
-    image: "/rick.jpg",
+    image: "/post3.jpg",
     likes: 238,
     comments: 28,
     reposts: 49
