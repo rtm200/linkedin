@@ -9,7 +9,7 @@ export default function LeftAside() {
             <div className='sticky top-18'>
                 <div className='block bg-white rounded-lg border border-[rgba(0,0,0,0.1)] mb-2'>
                     <div className='relative h-15 w-full bg-rose-300 rounded-tl-lg rounded-tr-lg'>
-                        <Image src='/morty.jfif' alt='bg' fill className='object-cover bg-center rounded-tl-lg rounded-tr-lg' />
+                        <Image src='/r2.jpg' alt='bg' fill className='object-cover bg-center rounded-tl-lg rounded-tr-lg' />
                     </div>
                     <div className='p-4'>
                         <Avatar className="h-18 w-18 border-2 border-white absolute -top-11">
