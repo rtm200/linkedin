@@ -95,9 +95,9 @@ export default function Header() {
                 />
             )}
             <header className="bg-white px-6 w-screen h-14 z-105 fixed top-0 shadow-sm flex border-b border-gray-200">
-                <div className="flex gap-2 my-0 mx-auto items-center justify-between h-full w-full max-w-282">
-                    <div className="flex gap-2 items-center relative flex-1">
-                        <Link href="/" className="outline-none min-h-9 min-w-9">
+                <div className="flex gap-0 sm:gap-2 my-0 mx-auto items-center justify-center sm:justify-between h-full w-full max-w-282">
+                    <div className="flex gap-2 items-center relative sm:flex-1">
+                        <Link href="/" className="outline-none min-h-9 min-w-9 hidden sm:flex">
                             <Image src="/logo.png" alt="LinkedIn" width={36} height={36} />
                         </Link>
 
@@ -191,7 +191,7 @@ export default function Header() {
                                 </div>
                                 {/* Business modal */}
                                 {activeBusiness && (
-                                    <div className={`absolute top-full right-0 mt-2 h-[85vh] w-sm md:w-xl bg-white rounded-tl-lg rounded-br-lg rounded-bl-lg overflow-y-auto shadow-lg p-8 z-100 duration-200 ${visibleBusiness ? 'translate-y-0' : '-translate-y-4'}`}>
+                                    <div className={`absolute top-full right-3 mt-2 h-[85vh] w-[320px] md:w-xl bg-white rounded-tl-lg rounded-br-lg rounded-bl-lg overflow-y-auto shadow-lg p-8 z-100 duration-200 ${visibleBusiness ? 'translate-y-0' : '-translate-y-4'}`}>
                                         <div className="flex h-full md:flex-row flex-col">
                                             <div className="flex-1 flex flex-col gap-8 md:gap-10">
                                                 <ul className="flex flex-col gap-3">

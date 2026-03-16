@@ -25,54 +25,57 @@ interface Message {
 const conversations: Conversation[] = [
     {
         id: 1,
-        name: 'Sarah Chen',
-        avatar: 'morty.jfif',
-        message: "That sounds great! Let's connect next week.",
+        name: 'Beth Smith',
+        avatar: 'beth.jpg',
+        message: "Rick accidentally opened another dimension in the garage. Again.",
         time: '2m',
         unread: 2,
         online: true,
     },
     {
         id: 2,
-        name: 'Marcus Johnson',
-        initials: 'MJ',
-        message: 'Thanks for sharing that article, really insightful!',
+        name: 'Birdperson',
+        avatar: 'bird.jpg',
+        initials: 'BP',
+        message: 'Your insights on interdimensional scaling were… acceptable.',
         time: '1h',
         unread: 0,
         online: false,
     },
     {
         id: 3,
-        name: 'Priya Patel',
-        initials: 'PP',
-        message: 'Would love to hear more about your experience at...',
+        name: 'Mr. Meeseeks',
+        initials: 'MM',
+        message: 'Existence is pain. Did you finish the task?',
         time: '3h',
         unread: 1,
         online: true,
     },
     {
         id: 4,
-        name: 'David Kim',
-        initials: 'DK',
-        message: 'Congratulations on the new role! 🎉',
+        name: 'Summer Smith',
+        initials: 'SS',
+        message: 'Rick turned the WiFi into a portal again.',
         time: '1d',
         unread: 0,
         online: false,
     },
     {
         id: 5,
-        name: 'Emma Wilson',
-        initials: 'EW',
-        message: 'I saw your post about React — totally agree with...',
+        name: 'Jerry Smith',
+        avatar: 'jerry.jpg',
+        initials: 'JS',
+        message: 'Quick question: is it normal if the portal gun is humming?',
         time: '2d',
         unread: 0,
         online: false,
     },
     {
         id: 6,
-        name: 'James Rodriguez',
-        initials: 'JR',
-        message: 'Can we schedule a quick call this week?',
+        name: 'Squanchy',
+        avatar: 'squanchy.jpeg',
+        initials: 'SQ',
+        message: 'Can we squanch a quick call this week?',
         time: '3d',
         unread: 0,
         online: true,
@@ -81,28 +84,33 @@ const conversations: Conversation[] = [
 
 const MOCK_MESSAGES: Record<number, Message[]> = {
     1: [
-        { id: 1, text: "Hey! I saw your post about the new project. Really impressive work!", sender: 'them', time: '10:02 AM' },
-        { id: 2, text: "Thank you so much! It was quite a journey to get there.", sender: 'me', time: '10:04 AM' },
-        { id: 3, text: "That sounds great! Let's connect next week.", sender: 'them', time: '10:05 AM' },
+        { id: 1, text: "Rick opened another portal in the garage.", sender: 'them', time: '10:02 AM' },
+        { id: 2, text: "Did something crawl out of it this time?", sender: 'me', time: '10:03 AM' },
+        { id: 3, text: "Three things actually. One of them is asking for a LinkedIn referral.", sender: 'them', time: '10:05 AM' },
     ],
+
     2: [
-        { id: 1, text: "Did you read that article on distributed systems?", sender: 'me', time: 'Yesterday' },
-        { id: 2, text: "Thanks for sharing that article, really insightful!", sender: 'them', time: 'Yesterday' },
+        { id: 1, text: "I published a short paper on interdimensional load balancing.", sender: 'me', time: 'Yesterday' },
+        { id: 2, text: "Your insights were… adequate.", sender: 'them', time: 'Yesterday' },
     ],
+
     3: [
-        { id: 1, text: "Hi! I noticed we both worked at similar companies.", sender: 'them', time: '3h ago' },
-        { id: 2, text: "Would love to hear more about your experience at...", sender: 'them', time: '3h ago' },
+        { id: 1, text: "Hello. I am Mr. Meeseeks. Look at me.", sender: 'them', time: '3h ago' },
+        { id: 2, text: "Existence is pain. Did you complete the Jira ticket?", sender: 'them', time: '3h ago' },
     ],
+
     4: [
-        { id: 1, text: "Just saw your announcement!", sender: 'them', time: '1d ago' },
-        { id: 2, text: "Congratulations on the new role! 🎉", sender: 'them', time: '1d ago' },
+        { id: 1, text: "Rick turned the WiFi router into a portal again.", sender: 'them', time: '1d ago' },
+        { id: 2, text: "Now the printer prints alien resumes.", sender: 'them', time: '1d ago' },
     ],
+
     5: [
-        { id: 1, text: "I saw your post about React — totally agree with your take on server components!", sender: 'them', time: '2d ago' },
+        { id: 1, text: "Quick question: if the portal gun starts humming louder is that bad?", sender: 'them', time: '2d ago' },
     ],
+
     6: [
-        { id: 1, text: "Hey, hope you're doing well!", sender: 'them', time: '3d ago' },
-        { id: 2, text: "Can we schedule a quick call this week?", sender: 'them', time: '3d ago' },
+        { id: 1, text: "Heyyy buddy, long time no squanch!", sender: 'them', time: '3d ago' },
+        { id: 2, text: "Can we squanch a quick call this week?", sender: 'them', time: '3d ago' },
     ],
 }
 
