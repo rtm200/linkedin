@@ -170,7 +170,7 @@ function Main() {
 
             
 
-            <div className="flex items-center border-t pt-2 border-zinc-200">
+            <div className="flex items-center gap-2 border-t pt-2 border-zinc-200">
 
               <button className="flex items-center justify-center h-10 gap-1 cursor-pointer hover:bg-gray-100 flex-1 text-black/70 font-semibold text-md rounded duration-200">
                 <ThumbsUp size={16} />

@@ -26,9 +26,9 @@ const navItems = [
 ];
 
 const recentSearchs = [
-    { text: 'internship program' },
-    { text: 'next js' },
-    { text: 'web developer' }
+    { text: 'Rick Sanchez' },
+    { text: 'Morty Smith' },
+    { text: 'galaxy of fear' }
 ]
 
 
